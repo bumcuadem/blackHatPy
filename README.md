@@ -31,3 +31,6 @@ BHP Net Tool
 2.Read command line options 
 3.Mimic NetCat to read from stdin
 4.Set up listening socket to take in options
+
+tcpProxy
+
