@@ -1,7 +1,7 @@
 import socket
 
-target_host = "127.0.0.1"
-target_port = 80
+target_host = os.getenv(IP, 0.0.0.0)
+target_port = os.getenv(PORT, 8080)
 
 #create a socket object
 client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
